@@ -13,6 +13,5 @@ This example demonstrates using Webpack as the build tool for Vue.js apps, inclu
 ``` bash
 npm install
 npm run dev
+open http://localhost:8080/
 ```
-
-Then serve the folder with a static HTTP server, e.g. `python -m SimpleHTTPServer`. This is necessary to enable lazy-loading of modules.
