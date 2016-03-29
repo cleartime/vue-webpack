@@ -1,3 +1,4 @@
 ## Deprecated
 
-See [vue-loader-example](https://github.com/vuejs/vue-loader-example) instead.
+
+See [vue-cli](https://github.com/vuejs/vue-cli) and [webpack vue-cli template](https://github.com/vuejs-templates/webpack) instead.
