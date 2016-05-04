@@ -1,16 +1,25 @@
 {
-  "name": "vue-webpack-example",
+  "name": "cleartime-vue-webpack-example",
   "version": "1.0.0",
   "description": "Vue project example using Webpack as the bundler.",
   "main": "src/main.js",
   "devDependencies": {
-    "css-loader": "^0.22.0",
+    "eslint": "^2.2.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^4.0.0",
+    "css-loader": "^0.23.0",
     "html-loader": "^0.3.0",
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
     "stylus-loader": "^1.2.1",
     "webpack": "^1.11.0",
-    "webpack-dev-server": "^1.12.1"
+    "webpack-dev-server": "^1.12.1",
+    "file-loader": "^0.8.4",
+    "null-loader": "^0.1.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "sass-loader": "^3.1.2",
+    "node-sass": "^3.4.2"
   },
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --quiet",
@@ -18,13 +27,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejs/vue-webpack-example"
+    "url": "https://github.com/cleartime/vue-webpack.git"
   },
   "keywords": [
     "vue",
     "webpack"
   ],
-  "author": "Evan You",
+  "author": "cleartime",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vuejs/vue-webpack-example/issues"
